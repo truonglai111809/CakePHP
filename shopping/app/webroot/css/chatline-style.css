@@ -1,0 +1,48 @@
+.media-object{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    padding-top: 10px;
+}
+h4{
+    font-size:18px;
+    padding-top: 10px;
+}
+p{
+    font-size: 15px;
+}
+p i{
+    font-size: 10px;
+}
+input.form-control.style{
+    border-radius: 15px;
+    background: transparent;
+    border-color: transparent;
+    width: 80%;
+    margin-top: 10px;
+}
+input.form-control.style :focus{
+    border-color: transparent;
+    background: transparent;
+}
+button.btn.btn-default{
+    background: #f0626e;
+    border-color: #f0626e;
+    float: right;
+    margin-top: -40px;
+    height: 40px;
+    width: 79px;
+    color: #fff;
+    padding-top: 10px;
+}
+button.btn.btn-default:focus{
+    background: #fcd6dd;
+    border-color: #fcd6dd;
+    padding-top: 10px;
+}
+.fa-times{
+    float: right;
+    color: #f0626e;
+    font-size: 20px;
+    margin-top: -25px;
+}

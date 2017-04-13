@@ -1,0 +1,128 @@
+/*
+Uploadify v2.1.4
+Release Date: November 8, 2010
+
+Copyright (c) 2010 Ronnie Garcia, Travis Nickels
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+.uploadifyQueueItem {
+	background-color: #F5F5F5;
+	border: 2px solid #E5E5E5;
+	font: 12px Arial, Verdana, Geneva, sans-serif;
+	margin-top: 5px; /*margin-bottom:15px;*/
+	padding: 10px;
+	/*width: 935px;*/
+	/*width: 269px;*/
+	/*float:left;*/
+	display:block;
+	/*border-bottom:1px solid #ccc;*/
+	/*height:20px;*/
+}
+.uploadifyError {
+	background-color: #FDE5DD !important;
+	border: 2px solid #FBCBBC !important;
+}
+.uploadifyQueueItem .cancel {
+	float: right;
+}
+.uploadifyQueue .completed {
+	background-color: #E5E5E5;
+	overflow:hidden;
+}
+/*#file_uploadQueue {
+	overflow:auto;
+	height:250px;
+	border:1px solid #DBDBDB;
+	margin-top:10px;	
+}*/
+.uploadifyProgress {
+	background-color: #E5E5E5;
+	margin-top: 10px;
+	width: 100%;
+}
+.uploadifyProgressBar {
+	background-color: #0099FF;
+	height: 3px;
+	width: 1px;
+}
+
+.uploadifyQueueItemCompleted {
+	background-color: #F5F5F5;
+	border: 2px solid #E5E5E5;
+	font: 11px Verdana, Geneva, sans-serif;
+	margin-top: 5px; margin-right:5px;
+	padding: 10px;
+	width: 73px;
+	float:left;
+	display:block;
+	/*height:20px;*/
+}
+
+.buttonUpload {
+	background:url('../../img/uploadify/buttons_114x25.png') no-repeat;
+	width:114px; height:25px;
+	display:block;
+	text-align:center;
+	font-size:12px;
+	color:#FFFFFF;
+	line-height:23px;
+	float:right;
+	margin-left:10px;
+	font-family:Arial;
+}
+
+.bubble-right {
+    background: url("../../img/uploadify/bubble_right.gif") no-repeat scroll right center transparent;
+    float: right;
+    height: 25px;
+    width: 8px;
+	margin-right: /*500px;*/670px;
+}
+.bubble-inner {
+    background: url("../../img/uploadify/bubble_inner.gif") repeat-x scroll 0 0 transparent;
+    color: #2E74B2;
+    float: right;
+	font-family: Arial;
+    font-size: 11px;
+    height: 18px;
+    line-height: 10px;
+    padding: 7px 0 0 2px;
+}
+.bubble-left {
+    background: url("../../img/uploadify/bubble_left.gif") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 25px;
+    margin-left: 5px;
+    width: 10px;
+}
+
+#ajax_loader {
+	display: none;
+	text-align: center;
+	line-height: 39px;
+}	
+.input_err {
+	text-align: center;
+	line-height: 39px;
+	color: #FF0000;
+}	
+.size {
+	
+}

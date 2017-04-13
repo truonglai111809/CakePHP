@@ -1,0 +1,63 @@
+
+.ab {
+    width: 859px;
+    border-radius: 0px;
+}
+.btn-default {
+    color: #F7F7F5;
+    background-color: #0F2BB2;
+    border-color: #ccc;
+}
+.control-label{
+font-size:21px;
+}
+
+.FormContent {
+    color: rgba(0,0,0,.87);
+    padding: 34px 17px;
+	margin-left: 258px;
+}
+.freebirdFormviewerViewHeaderHeader {
+    margin-bottom: 22px;
+}
+.title {
+    font-size: 34px;
+    margin-left: -108px;
+    width: 347px;
+}
+.FormContent input.form-control {
+    border-radius: 0px;
+    margin-left: -153px;
+    width: 477px;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-left: -152px;
+}
+.control-label {
+    font-size: 16px;
+}
+.btn-default {
+    color: #F7F7F5;
+    background-color: #0F2BB2;
+    border-color: #ccc;
+    margin-left: -151px;
+}
+th{
+color: #120000;
+}
+.cot_phai {
+    margin-top: -46px;
+	width: 434px;
+    margin-left: 72px;
+}
+.gia{
+color: #F0550A;
+}
+.footer_input{
+width: 263px;
+margin-left: 0px;
+}
